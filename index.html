@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MBTI 테스트</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <div id="question-container" class="text-center mt-5">
+      <h1>MBTI 테스트</h1>
+      <div id="question-text"></div>
+      <div id="options-container"></div>
+      <button id="next-button" class="btn btn-primary">다음</button>
+      <button id="restart-button" class="btn btn-secondary d-none">다시 검사하기</button>
+      <div id="result-container" class="mt-5">
+        <h3>당신의 MBTI 유형은 <span id="result"></span> 입니다.</h3>
+        <h3>추천 직업: <span id="job-recommendation"></span></h3>
+      </div>
+    </div>
+  </div>
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
